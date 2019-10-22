@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>New Users Info</title>
+</head>
+<body>
+<form action="#" th:action = "@{/createNewUser}" th:object = "${user}" method ="post">
+<label First Name > </label>
+    <input text = "type"th:field="*{fist_name}"/>
+    <label Last Name > </label>
+    <input text = "type"th:field="*{last_name}"/>
+    <label Email > </label>
+    <input text = "type"th:field="*{email}"/>
+    <label Personal Comment > </label>
+    <input text = "type"th:field="*{comment}"/>
+    <div>
+        submit<input type="submit" value="SUBMIT"/>
+    </div>
+    <a href="/seeAllUser"><i> All User </i> </a>
+</form>
+</body>
+</html>

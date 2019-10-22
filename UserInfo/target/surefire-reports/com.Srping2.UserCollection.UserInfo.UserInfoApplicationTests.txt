@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.Srping2.UserCollection.UserInfo.UserInfoApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 9.898 s <<< FAILURE! - in com.Srping2.UserCollection.UserInfo.UserInfoApplicationTests
+contextLoads  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: No identifier specified for entity: com.Srping2.UserCollection.UserInfo.Entity.User
+Caused by: org.hibernate.AnnotationException: No identifier specified for entity: com.Srping2.UserCollection.UserInfo.Entity.User
+

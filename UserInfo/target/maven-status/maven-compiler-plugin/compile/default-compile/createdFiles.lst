@@ -1,0 +1,5 @@
+com\Srping2\UserCollection\UserInfo\UserInfoApplication.class
+com\Srping2\UserCollection\UserInfo\Service\UserService.class
+com\Srping2\UserCollection\UserInfo\Repository\UserRepository.class
+com\Srping2\UserCollection\UserInfo\Controller\UserController.class
+com\Srping2\UserCollection\UserInfo\Entity\User.class
