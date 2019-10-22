@@ -1,0 +1,8 @@
+com\ThymeLeaf\Practice\SpringMVC\Controller\EmployeeController.class
+com\ThymeLeaf\Practice\SpringMVC\SpringMvcApplication.class
+com\ThymeLeaf\Practice\SpringMVC\Repository\EmployeeRepository.class
+com\ThymeLeaf\Practice\SpringMVC\Entity\User.class
+com\ThymeLeaf\Practice\SpringMVC\Controller\MVCController.class
+com\ThymeLeaf\Practice\SpringMVC\Entity\Employee.class
+com\ThymeLeaf\Practice\SpringMVC\Controller\RestControllerClass.class
+com\ThymeLeaf\Practice\SpringMVC\Service\EmployeeService.class
